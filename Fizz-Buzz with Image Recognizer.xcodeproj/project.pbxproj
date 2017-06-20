@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ADAFC3B91EF8F29E005AA76B /* keras_mnist.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = ADAFC3B81EF8F29E005AA76B /* keras_mnist.mlmodel */; };
 		ADAFD99A1EF4602900536C71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAFD9991EF4602900536C71 /* AppDelegate.swift */; };
 		ADAFD99C1EF4602900536C71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAFD99B1EF4602900536C71 /* ViewController.swift */; };
 		ADAFD99F1EF4602900536C71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAFD99D1EF4602900536C71 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ADAFC3B81EF8F29E005AA76B /* keras_mnist.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = keras_mnist.mlmodel; path = "../../Portfolio/Data Science/Deep Learning/Tensorflow/on-device-fizzbuzz/keras_mnist.mlmodel"; sourceTree = "<group>"; };
 		ADAFD9961EF4602900536C71 /* Fizz-Buzz with Image Recognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fizz-Buzz with Image Recognizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADAFD9991EF4602900536C71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADAFD99B1EF4602900536C71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				ADAFD9991EF4602900536C71 /* AppDelegate.swift */,
 				ADAFD99B1EF4602900536C71 /* ViewController.swift */,
 				ADAFD99D1EF4602900536C71 /* Main.storyboard */,
+				ADAFC3B81EF8F29E005AA76B /* keras_mnist.mlmodel */,
 				ADAFD9A01EF4602900536C71 /* Assets.xcassets */,
 				ADAFD9A21EF4602900536C71 /* LaunchScreen.storyboard */,
 				ADAFD9A51EF4602900536C71 /* Info.plist */,
@@ -91,7 +94,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Mike Kane";
 				TargetAttributes = {
 					ADAFD9951EF4602900536C71 = {
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADAFC3B91EF8F29E005AA76B /* keras_mnist.mlmodel in Sources */,
 				ADAFD99C1EF4602900536C71 /* ViewController.swift in Sources */,
 				ADAFD99A1EF4602900536C71 /* AppDelegate.swift in Sources */,
 			);
@@ -174,7 +178,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -182,7 +188,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -225,7 +235,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -233,7 +245,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -304,6 +320,7 @@
 				ADAFD9AA1EF4602900536C71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
