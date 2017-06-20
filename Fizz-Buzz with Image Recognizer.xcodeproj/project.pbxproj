@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ADAFC3B91EF8F29E005AA76B /* keras_mnist.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = ADAFC3B81EF8F29E005AA76B /* keras_mnist.mlmodel */; };
+		ADAFC3BC1EF8F88D005AA76B /* 3_test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADAFC3BB1EF8F88C005AA76B /* 3_test.jpg */; };
+		ADAFC3BE1EF8F8AC005AA76B /* clfHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAFC3BD1EF8F8AC005AA76B /* clfHelper.swift */; };
 		ADAFD99A1EF4602900536C71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAFD9991EF4602900536C71 /* AppDelegate.swift */; };
 		ADAFD99C1EF4602900536C71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAFD99B1EF4602900536C71 /* ViewController.swift */; };
 		ADAFD99F1EF4602900536C71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAFD99D1EF4602900536C71 /* Main.storyboard */; };
@@ -16,7 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ADAFC3B81EF8F29E005AA76B /* keras_mnist.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = keras_mnist.mlmodel; path = "../../Portfolio/Data Science/Deep Learning/Tensorflow/on-device-fizzbuzz/keras_mnist.mlmodel"; sourceTree = "<group>"; };
+		ADAFC3BA1EF8F4CE005AA76B /* keras_mnist.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = keras_mnist.mlmodel; path = "Neural Network/keras_mnist.mlmodel"; sourceTree = SOURCE_ROOT; };
+		ADAFC3BB1EF8F88C005AA76B /* 3_test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3_test.jpg; path = ../../3_test.jpg; sourceTree = "<group>"; };
+		ADAFC3BD1EF8F8AC005AA76B /* clfHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clfHelper.swift; sourceTree = "<group>"; };
 		ADAFD9961EF4602900536C71 /* Fizz-Buzz with Image Recognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fizz-Buzz with Image Recognizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADAFD9991EF4602900536C71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADAFD99B1EF4602900536C71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,11 +61,13 @@
 			children = (
 				ADAFD9991EF4602900536C71 /* AppDelegate.swift */,
 				ADAFD99B1EF4602900536C71 /* ViewController.swift */,
+				ADAFC3BA1EF8F4CE005AA76B /* keras_mnist.mlmodel */,
 				ADAFD99D1EF4602900536C71 /* Main.storyboard */,
-				ADAFC3B81EF8F29E005AA76B /* keras_mnist.mlmodel */,
+				ADAFC3BB1EF8F88C005AA76B /* 3_test.jpg */,
 				ADAFD9A01EF4602900536C71 /* Assets.xcassets */,
 				ADAFD9A21EF4602900536C71 /* LaunchScreen.storyboard */,
 				ADAFD9A51EF4602900536C71 /* Info.plist */,
+				ADAFC3BD1EF8F8AC005AA76B /* clfHelper.swift */,
 			);
 			path = "Fizz-Buzz with Image Recognizer";
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 				ADAFD9A41EF4602900536C71 /* LaunchScreen.storyboard in Resources */,
 				ADAFD9A11EF4602900536C71 /* Assets.xcassets in Resources */,
 				ADAFD99F1EF4602900536C71 /* Main.storyboard in Resources */,
+				ADAFC3BC1EF8F88D005AA76B /* 3_test.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,8 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADAFC3B91EF8F29E005AA76B /* keras_mnist.mlmodel in Sources */,
 				ADAFD99C1EF4602900536C71 /* ViewController.swift in Sources */,
+				ADAFC3BE1EF8F8AC005AA76B /* clfHelper.swift in Sources */,
 				ADAFD99A1EF4602900536C71 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
