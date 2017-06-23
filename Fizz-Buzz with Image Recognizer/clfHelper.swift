@@ -7,10 +7,12 @@
 //
 
 import Foundation
+import CoreML
 
 class clfHelper {
     // Singleton helper class designed to abstract away all of the image classification tasks.
     
+    static let model = Keras_MNIST()
     
     
     func readOutput(outputFromModel: Array<Double>) -> String {
@@ -24,6 +26,11 @@ class clfHelper {
         }
         return "\(classification!)"
     }
+    
+    func getPrediction(image: Array<Array<Double>>) -> Array<Double> {
         
         
+    }
+    
 }
+
