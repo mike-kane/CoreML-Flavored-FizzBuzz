@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ADAFC3BC1EF8F88D005AA76B /* 3_test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADAFC3BB1EF8F88C005AA76B /* 3_test.jpg */; };
-		ADAFC3BE1EF8F8AC005AA76B /* clfHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAFC3BD1EF8F8AC005AA76B /* clfHelper.swift */; };
+		AD77134F1EF9AB0300F991AA /* clfHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD77134E1EF9AB0300F991AA /* clfHelper.swift */; };
+		AD7713511EF9AB2F00F991AA /* Keras_MNIST.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AD7713501EF9AB2F00F991AA /* Keras_MNIST.mlmodel */; };
+		ADAFC3BC1EF8F88D005AA76B /* test_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADAFC3BB1EF8F88C005AA76B /* test_3.jpg */; };
 		ADAFD99A1EF4602900536C71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAFD9991EF4602900536C71 /* AppDelegate.swift */; };
 		ADAFD99C1EF4602900536C71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAFD99B1EF4602900536C71 /* ViewController.swift */; };
 		ADAFD99F1EF4602900536C71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAFD99D1EF4602900536C71 /* Main.storyboard */; };
@@ -17,9 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ADAFC3BA1EF8F4CE005AA76B /* keras_mnist.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = keras_mnist.mlmodel; path = "Neural Network/keras_mnist.mlmodel"; sourceTree = SOURCE_ROOT; };
-		ADAFC3BB1EF8F88C005AA76B /* 3_test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3_test.jpg; path = ../../3_test.jpg; sourceTree = "<group>"; };
-		ADAFC3BD1EF8F8AC005AA76B /* clfHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clfHelper.swift; sourceTree = "<group>"; };
+		AD77134E1EF9AB0300F991AA /* clfHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clfHelper.swift; sourceTree = "<group>"; };
+		AD7713501EF9AB2F00F991AA /* Keras_MNIST.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Keras_MNIST.mlmodel; sourceTree = "<group>"; };
+		ADAFC3BB1EF8F88C005AA76B /* test_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = test_3.jpg; path = ../../test_3.jpg; sourceTree = "<group>"; };
 		ADAFD9961EF4602900536C71 /* Fizz-Buzz with Image Recognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fizz-Buzz with Image Recognizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADAFD9991EF4602900536C71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADAFD99B1EF4602900536C71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,15 +60,15 @@
 		ADAFD9981EF4602900536C71 /* Fizz-Buzz with Image Recognizer */ = {
 			isa = PBXGroup;
 			children = (
+				AD77134E1EF9AB0300F991AA /* clfHelper.swift */,
+				AD7713501EF9AB2F00F991AA /* Keras_MNIST.mlmodel */,
 				ADAFD9991EF4602900536C71 /* AppDelegate.swift */,
 				ADAFD99B1EF4602900536C71 /* ViewController.swift */,
-				ADAFC3BA1EF8F4CE005AA76B /* keras_mnist.mlmodel */,
 				ADAFD99D1EF4602900536C71 /* Main.storyboard */,
-				ADAFC3BB1EF8F88C005AA76B /* 3_test.jpg */,
+				ADAFC3BB1EF8F88C005AA76B /* test_3.jpg */,
 				ADAFD9A01EF4602900536C71 /* Assets.xcassets */,
 				ADAFD9A21EF4602900536C71 /* LaunchScreen.storyboard */,
 				ADAFD9A51EF4602900536C71 /* Info.plist */,
-				ADAFC3BD1EF8F8AC005AA76B /* clfHelper.swift */,
 			);
 			path = "Fizz-Buzz with Image Recognizer";
 			sourceTree = "<group>";
@@ -135,7 +136,7 @@
 				ADAFD9A41EF4602900536C71 /* LaunchScreen.storyboard in Resources */,
 				ADAFD9A11EF4602900536C71 /* Assets.xcassets in Resources */,
 				ADAFD99F1EF4602900536C71 /* Main.storyboard in Resources */,
-				ADAFC3BC1EF8F88D005AA76B /* 3_test.jpg in Resources */,
+				ADAFC3BC1EF8F88D005AA76B /* test_3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD77134F1EF9AB0300F991AA /* clfHelper.swift in Sources */,
 				ADAFD99C1EF4602900536C71 /* ViewController.swift in Sources */,
-				ADAFC3BE1EF8F8AC005AA76B /* clfHelper.swift in Sources */,
 				ADAFD99A1EF4602900536C71 /* AppDelegate.swift in Sources */,
+				AD7713511EF9AB2F00F991AA /* Keras_MNIST.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +223,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -272,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
